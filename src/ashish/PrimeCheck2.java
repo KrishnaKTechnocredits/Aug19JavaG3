@@ -1,5 +1,7 @@
 package ashish;
 
+//Prime number program
+
 public class PrimeCheck2 {
 	
 	static void isPrime1(int start,int end)
