@@ -1,6 +1,7 @@
 package AmitK;
 
 public class PrimeCheck {
+	//This method is to check prime number 
 	static void isPrime(int start, int end) // 21 /3
 	{ // 4
 		for (int number = start; number <= end; number++) {
