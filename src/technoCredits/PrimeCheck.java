@@ -1,6 +1,8 @@
 package technoCredits;
 
 public class PrimeCheck {
+	
+	// THis method will give you a list of prime number.
 	static void isPrime(int start, int end) // 21 /3
 	{ // 4
 		for (int number = start; number <= end; number++) {
