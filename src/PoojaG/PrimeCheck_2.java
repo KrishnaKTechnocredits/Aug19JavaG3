@@ -14,6 +14,7 @@ public class PrimeCheck_2 {
 				//System.out.println(number + "not prime");
 				break; 
 			}
+			
 			if (cnt==0)
 			{
 				count++;
