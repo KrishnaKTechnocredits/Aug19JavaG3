@@ -20,7 +20,7 @@ public class PrimeCheckwithparameters {
 
 			{
 				count++;
-				// System.out.println(number + " is a prime number");
+				//System.out.println(number + " is a prime number");
 				sum = sum + number;
 				avg = sum / count;
 			}
@@ -33,6 +33,6 @@ public class PrimeCheckwithparameters {
 
 	public static void main(String[] args) {
 
-		isPrime(50, 100);
+		isPrime(2, 100);
 	}
 }
