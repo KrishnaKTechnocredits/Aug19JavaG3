@@ -1,4 +1,4 @@
-package Aviral;
+package  Aviral;
 
 public class PrimeCheck {
 
