@@ -1,6 +1,6 @@
 package Neha;
 
-public class sumOfArrayN {
+public class SumOfArrayN {
 
 	static void sumOfArray(int a[]) {
 		int sum = 0;

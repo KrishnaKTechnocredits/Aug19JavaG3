@@ -1,6 +1,6 @@
 package Neha;
 
-public class sumOfTwoInteger {
+public class SumOfTwoInteger {
 	static void sum() {
 		int a = 5, b = 7;
 		System.out.println("sum=" + (a + b));
