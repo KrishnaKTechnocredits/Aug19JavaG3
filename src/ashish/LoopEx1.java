@@ -6,7 +6,7 @@ class LoopEx1
     {
         for(int i=1;i<=5;i++)
         {
-            System.out.println(name + ":" + i);
+           System.out.println(name + ":" + i);
         }
     }
     public static void main(String[] a)
