@@ -12,6 +12,7 @@ class LoopEx1
     public static void main(String[] a)
     {
         LoopEx1 loopEx1 = new LoopEx1();
-        loopEx1.display("Maulik");
+        loopEx1.display("Mahesh");
+        loopEx1.display("Sonal");
     }
 }
