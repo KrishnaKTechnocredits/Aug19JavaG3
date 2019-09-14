@@ -1,3 +1,11 @@
+//	Draw
+//	   * 
+//	  * * 
+//	 * * * 
+//	* * * * 
+//	 * * * 
+//	  * * 
+//	   *
 package Neha;
 
 public class Pattern8 {
