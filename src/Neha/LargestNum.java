@@ -9,11 +9,8 @@ public class LargestNum {
 			System.out.println(x + " is largest");
 		else if (y > x && y > z)
 			System.out.println(y + " is largest");
-		else if (z > x && z > y)
-			System.out.println(z + " is largest");
 		else
-			System.out.println("Entered numbers are not distinct.");
-
+			System.out.println(z + " is largest");
 	}
 
 	public static void main(String[] args) {

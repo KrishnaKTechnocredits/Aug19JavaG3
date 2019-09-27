@@ -8,19 +8,19 @@ public class Calculator {
 
 	static void cal(int x, int y, String c) {
 		switch (c) {
-		case "+":
+		case "add":
 			System.out.println("Result: " + (x + y));
 			break;
 
-		case "-":
+		case "sub":
 			System.out.println("Result: " + (x - y));
 			break;
 
-		case "*":
+		case "mul":
 			System.out.println("Result: " + (x * y));
 			break;
 
-		case "/":
+		case "div":
 			System.out.println("Result: " + (x / y));
 			break;
 
