@@ -7,47 +7,51 @@ import java.util.Scanner;
 
 public class Week {
 
-
 	static void calculateWeek(int x) {
-		switch (x) {
-		case 1:
-			System.out.println("The " +x+"st day of the week is Monday");
-			break;
+		int date = x % 7;
+		if (date > 31) {
+			switch (date) {
+			case 1:
+				System.out.println(x + " is Monday");
+				break;
 
-		case 2:
-			System.out.println("The " +x+"nd day of the week is Tuesday");
-			break;
+			case 2:
+				System.out.println(x + " is Tuesday");
+				break;
 
-		case 3:
-			System.out.println("The " +x+"rd day of the week is Wednesday");
-			break;
+			case 3:
+				System.out.println(x + " is Wednesday");
+				break;
 
-		case 4:
-			System.out.println("The " +x+"th day of the week is Thursday");
-			break;
-			
-		case 5:
-			System.out.println("The " +x+"th day of the week is Friday");
-			break;
+			case 4:
+				System.out.println(x + " is Thursday");
+				break;
 
-		case 6:
-			System.out.println("The " +x+"th day of the week is Saturday");
-			break;
+			case 5:
+				System.out.println(x + " is Friday");
+				break;
 
-		case 7:
-			System.out.println("The " +x+"th day of the week is sunday");
-			break;
+			case 6:
+				System.out.println(x + " is Saturday");
+				break;
 
-		default:
-			System.out.println("There are only 7 days in a week");
+			case 7:
+				System.out.println(x + " is sunday");
+				break;
 
+			default:
+				System.out.println("There are only 7 days in a week");
+
+			}
 		}
+		else
+			System.out.println("There can be maximum 31 days in a month");
 	}
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter number between 1 and 7");
+		System.out.println("Enter date");
 		int x = sc.nextInt();
 		calculateWeek(x);
 	}
