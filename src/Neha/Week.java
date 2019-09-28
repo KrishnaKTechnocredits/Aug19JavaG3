@@ -9,7 +9,7 @@ public class Week {
 
 	static void calculateWeek(int x) {
 		int date = x % 7;
-		if (date > 31) {
+		if (date >= 31) {
 			switch (date) {
 			case 1:
 				System.out.println(x + " is Monday");
