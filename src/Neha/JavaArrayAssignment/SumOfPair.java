@@ -1,4 +1,4 @@
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 
