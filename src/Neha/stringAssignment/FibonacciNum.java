@@ -1,5 +1,5 @@
 //print Fibonacci series up to user required
-package Neha;
+package Neha.stringAssignment;
 
 public class FibonacciNum {
 	static void fibonaciNum() {

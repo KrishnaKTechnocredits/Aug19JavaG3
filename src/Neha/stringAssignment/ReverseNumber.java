@@ -1,5 +1,5 @@
 // reverse number (Consider Input as Integer not as String).
-package Neha;
+package Neha.stringAssignment;
 
 public class ReverseNumber {
 	 static void reverseNum(int number)

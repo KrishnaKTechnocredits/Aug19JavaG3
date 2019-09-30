@@ -1,5 +1,5 @@
 //check if a number is Armstrong or not
-package Neha;
+package Neha.stringAssignment;
 
 public class ArmstrongFind {
 	static void armstrong(int num) {

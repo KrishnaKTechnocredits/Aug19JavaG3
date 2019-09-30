@@ -1,5 +1,5 @@
 // print sum of digit
-package Neha;
+package Neha.stringAssignment;
 
 public class SumOfDigit {
 	static void sumOfDigit(int x) {

@@ -1,5 +1,5 @@
 // Reverse and capital on even (O/p: llA GNINROM dooG IH )
-package Neha;
+package Neha.stringAssignment;
 
 public class ReverseOfString {
 	static void reverse() {

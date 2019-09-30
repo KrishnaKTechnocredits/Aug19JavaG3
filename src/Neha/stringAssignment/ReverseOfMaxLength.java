@@ -1,5 +1,5 @@
 //Find reverse of Max Length
-package Neha;
+package Neha.stringAssignment;
 
 //import java.util.Scanner;
 

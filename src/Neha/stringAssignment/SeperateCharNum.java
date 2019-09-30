@@ -1,4 +1,4 @@
-package Neha;
+package Neha.stringAssignment;
 
 public class SeperateCharNum {
 	static void seperate() {
