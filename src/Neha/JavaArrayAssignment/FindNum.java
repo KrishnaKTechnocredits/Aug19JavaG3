@@ -1,5 +1,5 @@
 // Check if array contains a number
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 

@@ -1,5 +1,5 @@
 // Find duplicate number on Integer array
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 

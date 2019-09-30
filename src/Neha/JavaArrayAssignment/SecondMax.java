@@ -1,5 +1,5 @@
 // find second largest element in an array of integers
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 // print even number from the array
 
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 

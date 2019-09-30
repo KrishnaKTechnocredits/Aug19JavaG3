@@ -1,18 +1,20 @@
-// print common number from two different array
-package Neha;
+//Find first differ index from given arrays
+
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 
-public class CommonNum {
-	static void common(int[] a, int[] b) {
-//	int[] a = {1,3,6,9,7};
-//	int[] b = {2,5,6,9,8};
+public class FirstDiffer {
+	static void differ(int[] a, int[] b) {
+//		int[] a = { 10, 2, 9, 14, 3 };
+//		int[] b = { 10, 2, 18, 14, 3 };
+
 		for (int i = 0; i < a.length; i++) {
-			if (a[i] == b[i]) {
-				System.out.println("Common value are " + a[i] + " at index: " + i);
+			if (a[i] != b[i]) {
+				System.out.println("Values are not matching at index: " + i);
+				break;
 			}
 		}
-
 	}
 
 	public static void main(String[] args) {
@@ -29,6 +31,6 @@ public class CommonNum {
 		for (int i = 0; i < array2.length; i++) {
 			array2[i] = sc.nextInt();
 		}
-		common(array1, array2);
+		differ(array1, array2);
 	}
 }

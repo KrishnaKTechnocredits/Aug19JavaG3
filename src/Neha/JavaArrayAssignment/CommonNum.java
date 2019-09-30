@@ -1,22 +1,18 @@
-package Neha;
+// print common number from two different array
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 
-public class MaxDiffer {
-	static void differ(int[] a, int[] b) {
-//			int[] a = { 10, 2, 9, 14, 3 };
-//			int[] b = { 10, 2, 18, 14, 3 };
-		int max = 0;
+public class CommonNum {
+	static void common(int[] a, int[] b) {
+//	int[] a = {1,3,6,9,7};
+//	int[] b = {2,5,6,9,8};
 		for (int i = 0; i < a.length; i++) {
-			if (a[i] != b[i]) {
-				if (a[i] > b[i]) {
-					max = a[i];
-				} else {
-					max = b[i];
-				}
-				System.out.println("The values which are not matching are " + "("+a[i]+","+b[i]+")" + "\nMaximum value is: " + max);
+			if (a[i] == b[i]) {
+				System.out.println("Common value are " + a[i] + " at index: " + i);
 			}
 		}
+
 	}
 
 	public static void main(String[] args) {
@@ -33,6 +29,6 @@ public class MaxDiffer {
 		for (int i = 0; i < array2.length; i++) {
 			array2[i] = sc.nextInt();
 		}
-		differ(array1, array2);
+		common(array1, array2);
 	}
 }
