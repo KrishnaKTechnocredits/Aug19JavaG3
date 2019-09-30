@@ -1,5 +1,5 @@
 // print factorial number
-package Neha;
+package Neha.stringAssignment;
 
 import java.util.Scanner;
 

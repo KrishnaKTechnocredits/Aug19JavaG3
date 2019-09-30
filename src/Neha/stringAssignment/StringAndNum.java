@@ -1,5 +1,5 @@
 //separate numeric and string value from the array
-package Neha;
+package Neha.stringAssignment;
 
 public class StringAndNum {
 	static void seperate() {

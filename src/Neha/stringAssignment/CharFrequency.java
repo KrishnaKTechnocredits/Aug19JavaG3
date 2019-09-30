@@ -1,5 +1,5 @@
 // Find character occurring in user defined String and Character
-package Neha;
+package Neha.stringAssignment;
 
 import java.util.Scanner;
 

@@ -1,5 +1,5 @@
-// Find the sting is palindrome or not
-package Neha;
+// Find the string is palindrome or not
+package Neha.stringAssignment;
 
 public class Palindrome {
 	static void palindromeString(String str) {
@@ -11,11 +11,10 @@ public class Palindrome {
 
 			}
 		}
-		if (str.equals(rev)) {
+		if (str.equals(rev))
 			System.out.println("Word is palindrome");
-		} else {
+		else
 			System.out.println("Word is not palindrome");
-		}
 
 	}
 

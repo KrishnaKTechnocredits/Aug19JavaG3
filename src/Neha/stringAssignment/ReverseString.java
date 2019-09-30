@@ -1,6 +1,6 @@
 // Reverse of the given string withohut space
 
-package Neha;
+package Neha.stringAssignment;
 
 public class ReverseString {
 	static void reverse() {
