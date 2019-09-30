@@ -6,7 +6,7 @@
 //	 * * * 
 //	  * * 
 //	   *
-package Neha;
+package Neha.Patttern;
 
 public class Pattern8 {
 	public static void main(String[] args) {
