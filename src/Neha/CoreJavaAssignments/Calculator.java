@@ -1,6 +1,6 @@
 //Write a Java Program and create Calculator using switch statement
 
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 

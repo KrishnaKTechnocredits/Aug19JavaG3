@@ -3,7 +3,7 @@ Marks is greater than 0 and less than 50--FAIILED
 Marks is greater than 50 and less than 75--1st Class 
 Marks greater than 75 –and less than 100 Distinction*/
 
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 

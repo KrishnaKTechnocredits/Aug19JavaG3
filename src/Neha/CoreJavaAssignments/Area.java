@@ -3,7 +3,7 @@ Make it a menu driven program..
 Formulas:-Area Of rectangle=length*breadth 
 Area of triangle=1/2*base*height 
 Area of Circle=3.14*radius*radius*/
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 

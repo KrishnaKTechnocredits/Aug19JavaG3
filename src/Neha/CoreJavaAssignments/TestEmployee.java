@@ -2,7 +2,7 @@
  * Write a method to display the details of employees. 
  * Create a TestEmployee class to test Employee class functionality.*/
 
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 

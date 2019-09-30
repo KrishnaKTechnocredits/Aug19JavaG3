@@ -1,5 +1,5 @@
 // Write a Java program that takes a year from user and print whether that year is a leap year or not
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 
