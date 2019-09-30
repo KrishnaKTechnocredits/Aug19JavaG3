@@ -1,18 +1,20 @@
-//Find first differ index from given arrays
-
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 
-public class FirstDiffer {
+public class MaxDiffer {
 	static void differ(int[] a, int[] b) {
-//		int[] a = { 10, 2, 9, 14, 3 };
-//		int[] b = { 10, 2, 18, 14, 3 };
-
+//			int[] a = { 10, 2, 9, 14, 3 };
+//			int[] b = { 10, 2, 18, 14, 3 };
+		int max = 0;
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] != b[i]) {
-				System.out.println("Values are not matching at index: " + i);
-				break;
+				if (a[i] > b[i]) {
+					max = a[i];
+				} else {
+					max = b[i];
+				}
+				System.out.println("The values which are not matching are " + "("+a[i]+","+b[i]+")" + "\nMaximum value is: " + max);
 			}
 		}
 	}

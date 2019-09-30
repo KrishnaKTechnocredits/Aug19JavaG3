@@ -1,6 +1,6 @@
 //Find the missing number in integer array of 1 to 10
 
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 

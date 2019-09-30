@@ -1,5 +1,5 @@
 // Print reverse of given array
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 

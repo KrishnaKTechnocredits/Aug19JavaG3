@@ -1,6 +1,6 @@
 //Find all differ index from given arrays
 
-package Neha;
+package Neha.JavaArrayAssignment;
 
 import java.util.Scanner;
 
