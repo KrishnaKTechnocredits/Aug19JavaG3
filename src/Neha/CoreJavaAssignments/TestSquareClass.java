@@ -3,7 +3,7 @@
  * NOTE : square method should not take any parameter, constructor should set side value in instance variable 
 and square method should use that instance variable.
 (area=side*side)*/
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 

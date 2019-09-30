@@ -1,7 +1,7 @@
 /* Create Employee class and parameterized constructor with attributes empId , empName and salary. 
  * Write a method to display the details of employees. 
  * Create a TestEmployee class to test Employee class functionality.*/
-package Neha;
+package Neha.CoreJavaAssignments;
 
 public class Employee {
 	private int id;

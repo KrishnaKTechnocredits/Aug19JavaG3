@@ -1,5 +1,5 @@
 //Find the largest of three numbers using Logical And operator.
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 

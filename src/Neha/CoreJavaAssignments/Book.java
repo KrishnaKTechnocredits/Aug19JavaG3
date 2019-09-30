@@ -1,6 +1,6 @@
 /* Create a class Book having Title, Book Publisher, Author with parameterized constructor using this keyword. 
  * Write a method to display the details of the Book and Test the class by creating objects.*/
-package Neha;
+package Neha.CoreJavaAssignments;
 
 public class Book {
 	String title = "";

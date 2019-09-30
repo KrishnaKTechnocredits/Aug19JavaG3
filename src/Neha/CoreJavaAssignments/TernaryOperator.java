@@ -1,5 +1,5 @@
 // 2. Find greater of two numbers using ternary operator.
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 

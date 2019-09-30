@@ -7,7 +7,7 @@ d) checkBalance()
 e) displayDetails()
 Create BankClient class to test functionalities of Bank class.
 */
-package Neha;
+package Neha.CoreJavaAssignments;
 
 import java.util.Scanner;
 
