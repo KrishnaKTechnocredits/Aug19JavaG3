@@ -1,4 +1,5 @@
-package Neha;
+// Write a program to print the sum of all the elements of an array of size 4.
+package Neha.JavaFirstAssignment;
 
 public class SumOfElements {
 

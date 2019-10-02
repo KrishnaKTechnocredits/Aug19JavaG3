@@ -1,4 +1,10 @@
-package Neha;
+/* Write a program to print the sum of squares of the elements of an array of size N. 
+ * N can be any integer between 1 and 100. 1≤N≤100
+Sample Input
+N=5
+Array = 4 7 2 8 5 Sample Output: 158
+*/
+package Neha.JavaFirstAssignment;
 
 public class SumOfSquare {
 
@@ -15,12 +21,7 @@ public class SumOfSquare {
 	}
 
 	public static void main(String[] args) {
-		int[] a = new int[5];
-		a[0] = 1;
-		a[1] = 2;
-		a[2] = 3;
-		a[3] = 4;
-		a[4] = 5;
+		int[] a = {1,2,3,4,5};
 		sumOfsq(a);
 	}
 

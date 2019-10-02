@@ -1,4 +1,6 @@
-package Neha;
+// Write a program to print the sum of two integers.
+
+package Neha.JavaFirstAssignment;
 
 public class SumOfTwoInteger {
 	static void sum() {

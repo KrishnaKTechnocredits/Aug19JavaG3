@@ -1,4 +1,9 @@
-package Neha;
+/*Write a program to print the sum of all the elements of an array of size N where N can be any integer between 1 and 100. 
+ * 1≤N≤100
+Sample Input:
+N=3
+Array = 6 3 8 Sample Output: 17*/
+package Neha.JavaFirstAssignment;
 
 public class SumOfArrayN {
 
@@ -12,10 +17,7 @@ public class SumOfArrayN {
 	}
 
 	public static void main(String[] args) {
-		int[] a = new int[3];
-		a[0] = 1;
-		a[1] = 2;
-		a[2] = 3;
+		int[] a = { 2, 4, 5 };
 		sumOfArray(a);
 
 	}
