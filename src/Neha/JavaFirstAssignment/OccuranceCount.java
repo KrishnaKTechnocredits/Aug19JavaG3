@@ -1,6 +1,6 @@
-package Neha;
+package Neha.JavaFirstAssignment;
 
-//9) You are given a string S. Count the number of occurrences of all the digits in the string S.
+//You are given a string S. Count the number of occurrences of all the digits in the string S.
 
 public class OccuranceCount {
 
